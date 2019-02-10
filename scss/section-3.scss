@@ -1,0 +1,134 @@
+
+
+html {
+  body {
+    .section-3 {
+      background-color: $color-01;
+      .container {
+        .row {
+          .my-col {
+            position: relative;
+            .vertical-p {
+              position: absolute;
+              top: 30px;
+              left: 0px;
+              padding-top: 15px;
+              transform: rotate(-90deg);
+              color: $color-02;
+            }
+            .shapes {
+              position: absolute;
+              top: 0;
+              .line {
+                background-color: $color-02;
+                position: absolute;
+                left: 28px;
+                top: 110px;
+                width: 2px;
+                height: 50px;
+              }
+              .elipse {
+                border-radius: 50%;
+                background-color: $color-02;
+                position: absolute;
+                left: 22px;
+                top: 160px;
+                width: 13px;
+                height: 13px;
+              }
+              .rectangle {
+                border-width: 1px;
+                border-color: $color-02;
+                border-style: solid;
+                position: absolute;
+                left: 10px;
+                top: 0px;
+                width: 40px;
+                height: 200px;
+                z-index: 49;
+              }
+            }
+            .topic {
+              h2 {
+                color: $color-02;
+                font-size: 30px;
+              }
+              h3 {
+                color: $color-02;
+                font-weight: 400;
+                font-size: 15px;
+              }
+              .line-shape {
+
+              }
+              .line-shape {
+
+              }
+              p {
+                color: $color-02;
+                font-size: 9px;
+              }
+            }
+          }
+          .rect {
+            padding-top: 35px;
+            .rectangle-shapes {
+              position: relative;
+              z-index: 7;
+              .common{
+                transform: rotate(45deg);
+                border: solid 1px $color-06;
+                border-radius: 10%;
+                height: 110px;
+                width: 110px;
+              }
+              .upper-rect {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+              .rect-bg {
+                position: absolute;
+                background-color: $color-06;
+                border-radius: 10%;
+                height: 90px;
+                width: 90px;
+                margin: 8px;
+                transform: 'rotate(45deg)';
+                .sec-3-img {
+                  transform: rotate(-45deg);
+                  height: 40px;
+                  margin: 5px;
+
+                }
+                .rect-a {
+                  text-align: center;
+                  text-decoration: none;
+                  .rect-p {
+                    padding-left: 17px;
+                    top: 30px;
+                    left:40px;
+                    transform: rotate(-45deg);
+                    color: $color-07;
+                    font-size: 10px;
+                  }
+                }
+              }
+              .middle-rect {
+                position: absolute;
+                top: 65px;
+                left: 100px;
+
+              }
+              .bottom-rect {
+                position: absolute;
+                top: 134px;
+                left: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
